@@ -1,3 +1,5 @@
+package dishes;
+
 public class Pot extends Dishes {
     private double volume;
     private boolean hasLid;

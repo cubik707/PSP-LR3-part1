@@ -1,3 +1,5 @@
+package dishes;
+
 public class Plate extends Dishes {
     private double diameter;
 

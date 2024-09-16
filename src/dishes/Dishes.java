@@ -1,3 +1,5 @@
+package dishes;
+
 public abstract class Dishes {
     protected String manufacturer;
     protected double price;

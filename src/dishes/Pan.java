@@ -1,3 +1,5 @@
+package dishes;
+
 public class Pan extends Dishes {
     private double handleLength;
     private String coating;
