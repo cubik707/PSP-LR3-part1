@@ -26,6 +26,6 @@ public class Pot extends Dishes {
 
     @Override
     public String getName() {
-        return "Pot";
+        return "Кастрюля";
     }
 }
