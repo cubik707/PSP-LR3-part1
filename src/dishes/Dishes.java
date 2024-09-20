@@ -44,4 +44,9 @@ public abstract class Dishes {
     public void setStyle(String style) {
         this.style = style;
     }
+
+    @Override
+    public String toString() {
+        return "Производитель: " + manufacturer + ", Цена: " + price + ", Стиль: " + style;
+    }
 }

@@ -30,4 +30,9 @@ public class Pot extends Dishes {
     public String getName() {
         return "Кастрюля";
     }
+
+    @Override
+    public String toString() {
+        return super.toString() + ", Объем: " + volume + ", Наличие крышки: " + (hasLid ? "Да" : "Нет");
+    }
 }

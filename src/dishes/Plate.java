@@ -24,4 +24,9 @@ public class Plate extends Dishes {
     public String getName() {
         return "Тарелка";
     }
+
+    @Override
+    public String toString() {
+        return super.toString() + ", Диаметр: " + diameter;
+    }
 }

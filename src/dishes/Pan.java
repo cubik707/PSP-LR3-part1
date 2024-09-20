@@ -30,4 +30,9 @@ public class Pan extends Dishes {
     public String getName() {
         return "Сковорода";
     }
+
+    @Override
+    public String toString() {
+        return super.toString() + ", Длина ручки: " + handleLength + ", Покрытие: " + coating;
+    }
 }
